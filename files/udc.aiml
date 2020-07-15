@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>hi *</pattern>
+    <template>Hi. What book do you like to read?
+    <button>
+        <text>Personal Growth</text>
+        <postback>Improvement</postback>
+    </button>
+    <button>
+        <text>Fiction</text>
+        <postback>fictions</postback>
+    </button>
+    <button>
+        <text>Technology</text>
+        <postback>tech</postback>
+    </button>
+    </template>
+  </category>
+  
+  <category>
+      <pattern>Improvement</pattern>
+      <template>
+          <button>
+              <text>The Secret</text>
+              <url>https://drive.google.com/file/d/0B6fh5pW_kEHKOTZlMGI1ZTctMmM4OS00Mjk2LWJmNDMtM2UxOGJiN2E3NjU0/view</url>
+          </button>
+          <button>
+              <text>Stop doubting your greatness and start living an Awesome life</text>
+              <url>https://www.pdfdrive.com/you-are-a-badass-how-to-stop-doubting-your-greatness-and-start-living-an-awesome-life-e60365112.html</url>
+          </button>I hope you'll enjoy!</template>
+  </category>
+  
+  <category>
+      <pattern>fictions</pattern>
+      <template>
+          <button>
+              <text>Harry Potter</text>
+              <url>http://www.freepdfbook.com/tag/harry-potter-and-the-chamber-of-secrets-pdf-google-drive/</url>
+          </button>
+          <button>
+              <text>Hunger Games</text>
+              <url>https://sites.google.com/site/the74thhungergamesbyced/download-the-hunger-games-trilogy-e-book-txt-file</url>
+          </button>I hope you'll enjoy!</template>
+  </category>
+  
+  <category>
+      <pattern>tech</pattern>
+      <template>
+          <button>
+              <text>Python Programming</text>
+              <url>https://www.pdfdrive.com/python-programming-an-introduction-to-computer-science-e941324.html</url>
+          </button>
+          <button>
+              <text>Website Development</text>
+              <url>https://www.pdfdrive.com/php-mysql-javascript-html5-all-in-one-for-dummies-e18896179.html</url>
+          </button>I hope you'll enjoy!</template>
+  </category>
+  
+  <category>
+      <pattern>Hello *</pattern>
+      <template><srai>hi *</srai></template>
+  </category>
+  
+  <category>
+      <pattern>_ need *</pattern>
+      <template><srai>hi *</srai></template>
+  </category>
+  
+  <category>
+      <pattern>_ want *</pattern>
+      <template><srai>hi *</srai></template>
+  </category>
+  
+  <category>
+      <pattern>*</pattern>
+      <template><srai>hi *</srai></template>
+  </category>
+  
+</aiml>
